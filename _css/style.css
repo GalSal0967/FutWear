@@ -107,15 +107,26 @@
 
 .icone_com_texto {
   display: flex;
-  gap: 0.8rem;
+  gap: 2rem;
   align-items: center;
   cursor: pointer;
   transition: transform 0.2s;
 }
 
+.textos_categoria {
+  flex-direction: column;
+}
+
+.textos_categoria p, h3 {
+  margin: 0;
+  width: 70%;
+}
+
 .icone_com_texto i {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #005600;
+  border: 1px solid #005600;
+  padding: 1rem;
 }
 
 .icone_com_texto p {
